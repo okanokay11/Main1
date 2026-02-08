@@ -104,9 +104,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-body text-[#e5e5e5] mb-1">Visit Us</h3>
                     <p className="text-[#a3a3a3] font-body text-sm">
-                      123 Artisan Lane<br />
-                      New York, NY 10001<br />
-                      United States
+                      1207 St. Gunes/Kepez<br />
+                      Antalya, Turkey
                     </p>
                   </div>
                 </div>
@@ -118,8 +117,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-body text-[#e5e5e5] mb-1">Call Us</h3>
                     <p className="text-[#a3a3a3] font-body text-sm">
-                      +1 (555) 123-4567<br />
-                      Mon - Fri, 9am - 6pm EST
+                      +90 537 768 8988 (Turkey)<br />
+                      +971 50 784 9858 (UAE)
                     </p>
                   </div>
                 </div>

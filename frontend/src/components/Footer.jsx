@@ -48,13 +48,17 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-[#a3a3a3]">
                 <MapPin size={18} className="mt-1 text-gold shrink-0" />
                 <span className="font-body text-sm">
-                  123 Artisan Lane<br />
-                  New York, NY 10001
+                  1207 St. Gunes/Kepez<br />
+                  Antalya, Turkey
                 </span>
               </li>
               <li className="flex items-center gap-3 text-[#a3a3a3]">
                 <Phone size={18} className="text-gold shrink-0" />
-                <span className="font-body text-sm">+1 (555) 123-4567</span>
+                <span className="font-body text-sm">+90 537 768 8988</span>
+              </li>
+              <li className="flex items-center gap-3 text-[#a3a3a3]">
+                <Phone size={18} className="text-gold shrink-0" />
+                <span className="font-body text-sm">+971 50 784 9858</span>
               </li>
               <li className="flex items-center gap-3 text-[#a3a3a3]">
                 <Mail size={18} className="text-gold shrink-0" />
