@@ -110,10 +110,10 @@ const ProductsPage = () => {
               onValueChange={handleCategoryChange}
               data-testid="category-filter"
             >
-              <SelectTrigger className="w-[180px] bg-[#121212] border-[#262626] text-[#e5e5e5]" data-testid="category-select-trigger">
+              <SelectTrigger className="w-[180px] bg-[#121212] border-[#262626] text-[#e5e5e5] relative z-50" data-testid="category-select-trigger">
                 <SelectValue placeholder="All Collections" />
               </SelectTrigger>
-              <SelectContent className="bg-[#121212] border-[#262626]">
+              <SelectContent className="bg-[#121212] border-[#262626] z-50">
                 <SelectItem value="all" className="text-[#e5e5e5] focus:bg-[#1a1a1a]">
                   All Collections
                 </SelectItem>
