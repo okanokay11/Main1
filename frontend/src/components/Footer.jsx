@@ -9,10 +9,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-6">
-              <span className="font-heading text-2xl text-gold">Quality Finds</span>
+              <div className="flex flex-col">
+                <span className="font-heading text-2xl text-gold">Okan Okay & Co</span>
+                <span className="text-[10px] tracking-[0.3em] text-[#a3a3a3] font-body uppercase">
+                  Fine Handmade Products
+                </span>
+              </div>
             </Link>
             <p className="text-[#a3a3a3] font-body max-w-md leading-relaxed">
-              Curating genuine handcrafted goods for the discerning collector. 
+              Fine handmade products crafted with passion and precision. 
               Each piece tells a story of heritage, craftsmanship, and timeless elegance.
             </p>
           </div>
@@ -70,8 +75,8 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-[#262626] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-[#a3a3a3] text-sm font-body">
-            © 2025 Quality Finds. All rights reserved.
+          <p className="text-[#a3a3a3] font-body text-sm font-body">
+            © 2025 Okan Okay & Co. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/about" className="text-[#a3a3a3] hover:text-gold text-sm font-body transition-colors">

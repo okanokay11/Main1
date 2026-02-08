@@ -91,7 +91,7 @@ PRODUCTS = [
 # API Routes
 @api_router.get("/")
 async def root():
-    return {"message": "Quality Finds API"}
+    return {"message": "Okan Okay & Co API"}
 
 @api_router.get("/categories", response_model=List[Category])
 async def get_categories():

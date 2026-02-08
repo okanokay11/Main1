@@ -48,9 +48,14 @@ const Navigation = () => {
               className="flex items-center"
               data-testid="nav-logo"
             >
-              <span className="font-heading text-2xl text-gold tracking-tight">
-                Quality Finds
-              </span>
+              <div className="flex flex-col items-center">
+                <span className="font-heading text-2xl text-gold tracking-tight">
+                  Okan Okay & Co
+                </span>
+                <span className="text-[10px] tracking-[0.3em] text-[#a3a3a3] font-body uppercase">
+                  Fine Handmade Products
+                </span>
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
