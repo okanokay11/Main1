@@ -57,7 +57,7 @@ const HomePage = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="tracking-luxury text-gold mb-6 font-body"
           >
-            Handcrafted Excellence
+            Fine Handmade Products
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -75,9 +75,8 @@ const HomePage = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="font-body text-[#a3a3a3] text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Discover our curated collection of genuine leather goods and 
-            artisan silver jewellery, each piece crafted with centuries-old 
-            techniques and timeless design.
+            Discover our curated collection of fine handmade leather goods, 
+            each piece crafted with centuries-old techniques and timeless design.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
