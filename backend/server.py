@@ -99,169 +99,19 @@ CATEGORIES = [
 ]
 
 PRODUCTS = [
-    # Wallets
     {
         "id": "prod-1",
-        "name": "Heritage Bifold Wallet",
-        "description": "A classic bifold wallet crafted from premium full-grain leather. Features 6 card slots, 2 bill compartments, and a hidden pocket. Hand-stitched with waxed thread for durability.",
+        "name": "Handcrafted Leather Wallet",
+        "description": "A beautifully handcrafted leather wallet featuring premium full-grain leather with natural grain patterns. Hand-stitched with precision for exceptional durability. Each piece develops a unique patina over time, making it truly one-of-a-kind.",
         "price": 189.00,
         "category": "wallets",
-        "image_url": "https://images.unsplash.com/photo-1755541608566-0340d4efca0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85",
+        "image_url": "https://customer-assets.emergentagent.com/job_quality-finds-3/artifacts/snvvv549_DSC1311-min%20%281%29.jpg",
         "additional_images": [
-            "https://images.unsplash.com/photo-1763674292700-317879c2038c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85"
+            "https://customer-assets.emergentagent.com/job_quality-finds-3/artifacts/dij8pqar_DSC1313-min%20%281%29.jpg",
+            "https://customer-assets.emergentagent.com/job_quality-finds-3/artifacts/t0nsp5pt_DSC1310-min.jpg"
         ],
-        "material": "Full-grain Italian Leather",
+        "material": "Full-grain Leather",
         "dimensions": "11cm x 9cm x 1.5cm",
-        "is_featured": True
-    },
-    {
-        "id": "prod-2",
-        "name": "Slim Card Holder",
-        "description": "Minimalist card holder designed for the essentialist. Holds up to 8 cards with a central cash pocket. Burnished edges reveal the natural leather beneath.",
-        "price": 129.00,
-        "category": "wallets",
-        "image_url": "https://images.unsplash.com/photo-1763674292700-317879c2038c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Vegetable-tanned Leather",
-        "dimensions": "10cm x 7cm x 0.5cm",
-        "is_featured": False
-    },
-    {
-        "id": "prod-3",
-        "name": "Executive Long Wallet",
-        "description": "A sophisticated long wallet for those who appreciate the finer things. Features a zip compartment, multiple card slots, and a transparent ID window.",
-        "price": 259.00,
-        "category": "wallets",
-        "image_url": "https://images.unsplash.com/photo-1755541608110-3440a0f168ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Bridle Leather",
-        "dimensions": "19cm x 10cm x 2cm",
-        "is_featured": True
-    },
-    # Jewelry
-    {
-        "id": "prod-4",
-        "name": "Artisan Silver Ring",
-        "description": "Hand-forged sterling silver ring with a hammered texture. Each piece is unique, bearing the marks of the craftsman's hammer. Oxidized finish for depth.",
-        "price": 175.00,
-        "category": "jewelry",
-        "image_url": "https://images.unsplash.com/photo-1653587893403-b99e27c13dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwyfHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "925 Sterling Silver",
-        "dimensions": "Sizes 6-12 available",
-        "is_featured": True
-    },
-    {
-        "id": "prod-5",
-        "name": "Chain Link Bracelet",
-        "description": "Bold chain link bracelet in polished sterling silver. A statement piece that transitions seamlessly from day to night. Lobster clasp closure.",
-        "price": 295.00,
-        "category": "jewelry",
-        "image_url": "https://images.unsplash.com/photo-1739697075140-59b5eee5b786?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "925 Sterling Silver",
-        "dimensions": "Length: 19cm, Width: 1cm",
-        "is_featured": False
-    },
-    {
-        "id": "prod-6",
-        "name": "Minimalist Pendant Necklace",
-        "description": "A delicate pendant necklace featuring a geometric silver charm on a fine chain. Perfect for layering or worn alone as a subtle accent.",
-        "price": 145.00,
-        "category": "jewelry",
-        "image_url": "https://images.unsplash.com/photo-1696533700445-9cc60ac4a651?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "925 Sterling Silver",
-        "dimensions": "Chain length: 45cm",
-        "is_featured": True
-    },
-    # Bags
-    {
-        "id": "prod-7",
-        "name": "Artisan Tote Bag",
-        "description": "A spacious tote bag crafted from vegetable-tanned leather that develops a rich patina over time. Features an interior zip pocket and magnetic closure.",
-        "price": 425.00,
-        "category": "bags",
-        "image_url": "https://images.unsplash.com/photo-1556304044-0699e31c6a34?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [
-            "https://images.unsplash.com/photo-1702326626601-74d2e86922b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85"
-        ],
-        "material": "Vegetable-tanned Leather",
-        "dimensions": "40cm x 35cm x 12cm",
-        "is_featured": True
-    },
-    {
-        "id": "prod-8",
-        "name": "Messenger Crossbody",
-        "description": "Classic messenger bag with modern proportions. Features an adjustable strap, front flap with hidden magnetic closure, and organized interior.",
-        "price": 365.00,
-        "category": "bags",
-        "image_url": "https://images.unsplash.com/photo-1702326626601-74d2e86922b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Full-grain Leather",
-        "dimensions": "30cm x 25cm x 8cm",
-        "is_featured": False
-    },
-    {
-        "id": "prod-9",
-        "name": "Weekender Duffle",
-        "description": "The perfect travel companion. Spacious duffle bag with leather handles, detachable shoulder strap, and brass hardware. Canvas-lined interior.",
-        "price": 545.00,
-        "category": "bags",
-        "image_url": "https://images.unsplash.com/photo-1711113456416-7d96c9bc31fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Bridle Leather",
-        "dimensions": "55cm x 28cm x 30cm",
-        "is_featured": True
-    },
-    # Belts
-    {
-        "id": "prod-10",
-        "name": "Classic Dress Belt",
-        "description": "A timeless dress belt with a polished silver buckle. Made from single-piece construction for exceptional durability. Will age beautifully with use.",
-        "price": 145.00,
-        "category": "belts",
-        "image_url": "https://images.unsplash.com/photo-1763674292700-317879c2038c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwYmVsdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDUzNjM5OXww&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Full-grain Leather",
-        "dimensions": "Width: 3.5cm, Sizes 30-42",
-        "is_featured": True
-    },
-    {
-        "id": "prod-11",
-        "name": "Casual Suede Belt",
-        "description": "A relaxed suede belt perfect for casual occasions. Features a brass roller buckle and contrast stitching. Pairs beautifully with denim.",
-        "price": 125.00,
-        "category": "belts",
-        "image_url": "https://images.unsplash.com/photo-1668954443591-ea2072a6b4b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmVsdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDUzNjM5OXww&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Suede Leather",
-        "dimensions": "Width: 4cm, Sizes 30-42",
-        "is_featured": False
-    },
-    # Watches
-    {
-        "id": "prod-12",
-        "name": "Classic Chronograph",
-        "description": "Elegant chronograph watch with a clean dial and leather strap. Japanese quartz movement with date display. Water-resistant to 50 meters.",
-        "price": 495.00,
-        "category": "watches",
-        "image_url": "https://images.unsplash.com/photo-1594120665604-953402382256?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtaW5pbWFsaXN0JTIwd2F0Y2glMjBkYXJrJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwNTM2NDAzfDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "Stainless Steel Case, Leather Strap",
-        "dimensions": "Case diameter: 42mm",
-        "is_featured": True
-    },
-    {
-        "id": "prod-13",
-        "name": "Minimalist Automatic",
-        "description": "Ultra-thin automatic watch with a sun-ray dial. Swiss movement visible through sapphire crystal caseback. The epitome of understated elegance.",
-        "price": 695.00,
-        "category": "watches",
-        "image_url": "https://images.unsplash.com/photo-1764243910471-4161c42fd29c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtaW5pbWFsaXN0JTIwd2F0Y2glMjBkYXJrJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwNTM2NDAzfDA&ixlib=rb-4.1.0&q=85",
-        "additional_images": [],
-        "material": "316L Stainless Steel, Alligator Leather Strap",
-        "dimensions": "Case diameter: 40mm, Thickness: 8mm",
         "is_featured": True
     }
 ]
