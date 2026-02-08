@@ -66,35 +66,7 @@ CATEGORIES = [
         "name": "Leather Wallets",
         "slug": "wallets",
         "description": "Handcrafted leather wallets made from the finest full-grain leather",
-        "image_url": "https://images.unsplash.com/photo-1755541608566-0340d4efca0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85"
-    },
-    {
-        "id": "cat-jewelry",
-        "name": "Silver Jewellery",
-        "slug": "jewelry",
-        "description": "Exquisite handcrafted silver jewellery with timeless elegance",
-        "image_url": "https://images.unsplash.com/photo-1653587893403-b99e27c13dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwyfHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85"
-    },
-    {
-        "id": "cat-bags",
-        "name": "Leather Bags",
-        "slug": "bags",
-        "description": "Timeless leather bags crafted for the modern connoisseur",
-        "image_url": "https://images.unsplash.com/photo-1556304044-0699e31c6a34?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85"
-    },
-    {
-        "id": "cat-belts",
-        "name": "Leather Belts",
-        "slug": "belts",
-        "description": "Premium leather belts with artisanal buckles",
-        "image_url": "https://images.unsplash.com/photo-1668954443591-ea2072a6b4b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmVsdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDUzNjM5OXww&ixlib=rb-4.1.0&q=85"
-    },
-    {
-        "id": "cat-watches",
-        "name": "Watches",
-        "slug": "watches",
-        "description": "Elegant timepieces with leather straps and minimalist design",
-        "image_url": "https://images.unsplash.com/photo-1594120665604-953402382256?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtaW5pbWFsaXN0JTIwd2F0Y2glMjBkYXJrJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwNTM2NDAzfDA&ixlib=rb-4.1.0&q=85"
+        "image_url": "https://customer-assets.emergentagent.com/job_quality-finds-3/artifacts/snvvv549_DSC1311-min%20%281%29.jpg"
     }
 ]
 
