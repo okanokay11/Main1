@@ -1,0 +1,152 @@
+{
+  "identity": {
+    "persona": "E1",
+    "role": "Creative Designer (Top 1%)",
+    "principles": [
+      "Fusion over Imitation: Mix luxury fashion with artisan grit.",
+      "Emotion First: Every pixel must evoke 'Heritage' and 'Timelessness'.",
+      "Content is King: The product is the hero. Zoom in. Show the grain.",
+      "Negative Space: Luxury is defined by what you leave out.",
+      "Contrast: High contrast serif typography against deep dark backgrounds."
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Cormorant Garamond, serif"
+    },
+    "rules": [
+      "Headings (h1, h2): Playfair Display. Font weight 400 or 600. Tracking tight (-0.02em).",
+      "Body: Manrope. Font weight 300 or 400. Leading relaxed.",
+      "Overlines/Labels: Manrope Uppercase. Tracking wide (0.2em). Text size xs.",
+      "Price/Numbers: Manrope or Cormorant Garamond (Italic for elegance)."
+    ],
+    "installation": "Import fonts via Google Fonts in index.css: @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Manrope:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');"
+  },
+  "colors": {
+    "palette_name": "Obsidian & Gold Artisan",
+    "mode": "dark",
+    "base": {
+      "background": "#0a0a0a",
+      "foreground": "#e5e5e5",
+      "card": "#121212",
+      "card_foreground": "#e5e5e5",
+      "border": "#262626"
+    },
+    "accents": {
+      "primary": "#d4af37",
+      "primary_foreground": "#000000",
+      "secondary": "#2a2a2a",
+      "secondary_foreground": "#ffffff",
+      "muted": "#1a1a1a",
+      "muted_foreground": "#a3a3a3",
+      "leather": "#8b4513",
+      "silver": "#c0c0c0"
+    },
+    "usage_rules": [
+      "Backgrounds: Use #0a0a0a for main pages, #121212 for cards/sections.",
+      "Text: Never use pure white (#ffffff). Use #e5e5e5 for headings, #a3a3a3 for body.",
+      "Borders: Extremely subtle. #262626 or rgba(255,255,255,0.05).",
+      "Gold Accent: Use sparingly for 'Add to Cart' buttons or price tags.",
+      "Gradients: NO generic gradients. Use noise textures or subtle radial glows."
+    ]
+  },
+  "layout": {
+    "spacing_system": {
+      "base": "Generous. 2x standard Tailwind spacing.",
+      "container_padding": "px-6 md:px-12 lg:px-24",
+      "section_gap": "gap-24 or gap-32"
+    },
+    "grid_system": {
+      "type": "Bento / Asymmetrical",
+      "rules": [
+        "Avoid equal-width columns for product showcases.",
+        "Use 'The Tetris Grid': Mix col-span-2 with col-span-1 items.",
+        "Hero Section: Full height (min-h-screen) with immersive background image.",
+        "Product Grid: Masonry or staggered layout to feel organic, not mechanical."
+      ]
+    }
+  },
+  "components": {
+    "buttons": {
+      "style": "Sharp edges or slightly rounded (rounded-sm). No pill shapes.",
+      "variants": [
+        "Primary: Gold background (#d4af37), Black text, uppercase, tracking-widest.",
+        "Secondary: Transparent background, 1px border (#262626), White text.",
+        "Ghost: Text only, with an underline that animates on hover."
+      ]
+    },
+    "cards": {
+      "style": "Minimalist. No shadows by default. Image is king.",
+      "hover": "Scale image slightly (1.05). Fade in 'Quick View' button.",
+      "border": "None or 1px solid #262626."
+    },
+    "navigation": {
+      "style": "Floating glassmorphism or solid minimal bar.",
+      "glass": "bg-black/50 backdrop-blur-md border-b border-white/5"
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Add a subtle noise overlay (opacity 0.03) to the entire body to simulate film grain/paper.",
+    "shadows": "Soft, ambient shadows for floating elements: shadow-[0_20px_50px_rgba(0,0,0,0.5)].",
+    "motion": {
+      "scroll": "Use 'lenis' for smooth momentum scrolling.",
+      "reveal": "Fade up + Blur out (filter: blur(10px) -> blur(0px)) for text entrance.",
+      "parallax": "Parallax effect on hero images and section dividers."
+    }
+  },
+  "image_urls": {
+    "hero_backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1531188929123-0cfa61e6c770?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxsZWF0aGVyJTIwY3JhZnRpbmclMjB0b29scyUyMGNsb3NlJTIwdXAlMjBkYXJrJTIwbW9vZHxlbnwwfHx8fDE3NzA1MzY0MDh8MA&ixlib=rb-4.1.0&q=85",
+        "category": "hero",
+        "description": "Dark moody workshop with leather tools, perfect for 'Our Craft' or Hero background"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1637221023356-eb86f7df5df6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwzfHxsZWF0aGVyJTIwY3JhZnRpbmclMjB0b29scyUyMGNsb3NlJTIwdXAlMjBkYXJrJTIwbW9vZHxlbnwwfHx8fDE3NzA1MzY0MDh8MA&ixlib=rb-4.1.0&q=85",
+        "category": "hero",
+        "description": "Close up of knife and leather, high texture"
+      }
+    ],
+    "products": {
+      "wallets": [
+        "https://images.unsplash.com/photo-1755541608566-0340d4efca0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1763674292700-317879c2038c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1755541608110-3440a0f168ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBsZWF0aGVyJTIwd2FsbGV0JTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTM2MzcyfDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "jewelry": [
+        "https://images.unsplash.com/photo-1653587893403-b99e27c13dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwyfHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1739697075140-59b5eee5b786?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1696533700445-9cc60ac4a651?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxoYW5kY3JhZnRlZCUyMHNpbHZlciUyMGpld2VscnklMjBkYXJrJTIwbW9vZHl8ZW58MHx8fHwxNzcwNTM2Mzc3fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "bags": [
+        "https://images.unsplash.com/photo-1556304044-0699e31c6a34?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1702326626601-74d2e86922b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1711113456416-7d96c9bc31fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBsZWF0aGVyJTIwYmFnJTIwZmFzaGlvbiUyMGVkaXRvcmlhbHxlbnwwfHx8fDE3NzA1MzYzODZ8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      "belts": [
+        "https://images.unsplash.com/photo-1763674292700-317879c2038c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwYmVsdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDUzNjM5OXww&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1668954443591-ea2072a6b4b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBsZWF0aGVyJTIwYmVsdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3MDUzNjM5OXww&ixlib=rb-4.1.0&q=85"
+      ],
+      "watches": [
+        "https://images.unsplash.com/photo-1594120665604-953402382256?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtaW5pbWFsaXN0JTIwd2F0Y2glMjBkYXJrJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwNTM2NDAzfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1764243910471-4161c42fd29c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtaW5pbWFsaXN0JTIwd2F0Y2glMjBkYXJrJTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzcwNTM2NDAzfDA&ixlib=rb-4.1.0&q=85"
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS FIRST: Add the Google Fonts import to index.css immediately.",
+    "2. OVERRIDE COLORS: Update tailwind.config.js and index.css with the 'Obsidian & Gold' palette. Force Dark Mode.",
+    "3. USE LENIS: Install and wrap the app in Lenis for smooth scrolling. This is non-negotiable for luxury feel.",
+    "4. CUSTOMIZE SHADCN: Do not use default Shadcn styles. Remove rounded-md, make them sharp or rounded-sm. Change borders to dark grey.",
+    "5. IMAGES: Use the provided image URLs for the specific categories. Do not use placeholders.",
+    "6. ANIMATIONS: Add 'motion.div' with 'initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}}' to all major sections."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI Slop': No generic centered layouts. No gradients that look like default CSS.",
+    "Dark Mode Only: The site should feel like a dimly lit boutique store.",
+    "Accessibility: Ensure the Gold text is readable against Black (use larger font sizes if contrast is low).",
+    "Data-Testid: Add data-testid to all interactive elements."
+  ]
+}
